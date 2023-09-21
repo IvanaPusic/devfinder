@@ -9,7 +9,7 @@ function App() {
     >
       <div className='pt-[1.94rem] px-[1.5rem]'>
         <Header isDark={isDark} setIsDark={setIsDark} />
-        <Search />
+        <Search isDark={isDark} />
         <User />
       </div>
     </section>
