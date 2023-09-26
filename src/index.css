@@ -8,9 +8,9 @@
   }
 
   .input {
-    @apply placeholder:font-space-mono placeholder:pl-[2rem] placeholder:text-gray-blue block py-[1.25rem] bg-white w-full rounded-md  pl-9 pr-3 shadow-sm focus:outline-none  sm:text-sm;
+    @apply placeholder:font-space-mono font-space-mono placeholder:ml-[2rem] placeholder:text-gray-blue block py-[1.25rem] bg-white w-full rounded-[0.9375rem]  pl-9 pr-3 shadow-sm focus:outline-none  sm:text-sm;
   }
   .input-dark {
-    @apply placeholder:font-space-mono placeholder:pl-[2rem] placeholder:text-white block py-[1.25rem] bg-navy-blue text-white w-full rounded-md  pl-9 pr-3 shadow-sm focus:outline-none  sm:text-sm;
+    @apply placeholder:font-space-mono font-space-mono placeholder:ml-[2rem] placeholder:text-white block py-[1.25rem] bg-navy-blue text-white w-full rounded-[0.9375rem]  pl-9 pr-3 shadow-sm focus:outline-none  sm:text-sm;
   }
 }

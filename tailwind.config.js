@@ -21,6 +21,7 @@ export default {
         base: ['1rem', '1.5625rem'],
         small: ['0.9375rem', '1.5625rem'],
         xs: ['0.8125rem', '1.5625rem'],
+        '2xs': ['0.6875rem', '1.5625rem'],
       },
       fontFamily: {
         'space-mono': ["'Space Mono'", 'monospace'],

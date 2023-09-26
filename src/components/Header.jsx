@@ -3,7 +3,7 @@ import sun from '../assets/icon-sun.svg';
 
 const Header = ({ isDark, setIsDark }) => {
   return (
-    <header className='flex justify-between align-middle pb-[2.19rem]'>
+    <header className='flex justify-between align-middle pb-[2.19rem] md:min-w-[35.8125rem] md:pt-[8.75rem]  lg:pt-[9rem] lg:w-[45.625rem]'>
       <h3
         className={
           isDark
